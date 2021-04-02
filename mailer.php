@@ -158,8 +158,8 @@
 		$mail->isSMTP();                                      // Set mailer to use SMTP
 		$mail->Host = 'smtp.gmail.com';                       // Specify main and backup server
 		$mail->SMTPAuth = true;                               // Enable SMTP authentication
-		$mail->Username = 'serversdirectory@gmail.com';                   // SMTP username
-		$mail->Password = '5>!*-|h54)U)&,;';               // SMTP password
+		$mail->Username = '';                   // SMTP username
+		$mail->Password = '';               // SMTP password
 		$mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 		$mail->Port = 587;                                    //Set the SMTP port number - 587 for authenticated TLS
 		$mail->setFrom('verify.support@gmail.com', 'Verify Support');     //Set who the message is to be sent from
